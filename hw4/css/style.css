@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+}
+
+.wrapper {
+  position: relative;
+  width: 1000px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.logo {
+  float: left;  
+  background: url(../img/logo.png) 0 0 no-repeat;
+  padding-top: 100px;
+  padding-bottom: 56px;
+  margin-top: 39px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  color: #128aa7;
+}
+
+.contacts {
+  float: right;
+  margin: 39px 20px 10px 500px;
+  color: #128aa7;
+}
+
+.countries {
+  float: right;
+  margin-right: 20px;
+}
+
+.countries li {
+  display: inline;
+	list-style-type: none;
+}
+
+.countries a {
+  display: inline-block;
+  text-align: center; 
+  width: 50px;
+  padding-top: 50px;
+  margin-top: 20px;
+  background: url(../img/countries.png) 4px 0 no-repeat;
+  font-size: 10px;
+  text-decoration: none;
+  color: #128aa7;
+}
+
+.countries .nepal {
+  background: url(../img/countries.png) -54px  0 no-repeat;
+} 
+
+.countries .tibet {
+  background: url(../img/countries.png) -110px  0 no-repeat;
+}
+
+.countries .butan {
+  background: url(../img/countries.png) -165px  0 no-repeat;
+}
+
+.countries .shri-lanka {
+  background: url(../img/countries.png) -221px  0 no-repeat;
+}
+
+.countries .maldivy {
+  background: url(../img/countries.png) -278px  0 no-repeat;
+}
+
+/* Navbar */
+
+.navbar {
+  background: #333;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  list-style-type: none;
+  line-height: 30px;
+  position: relative;
+  padding-right: 40px;
+  padding-left: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar__podmenu {
+  list-style-type: none;
+  position: absolute;
+  top: -9999px;  
+  opacity: 0;
+  background: #333;
+  width: 100%;
+  border-top: 1px solid #000;
+}
+
+.navbar__item:hover .navbar__podmenu {
+  top: 29px;
+  left: 0;
+  opacity: 1;
+}
+
+/* Content */
+
+.content {
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+}
+
+.sidebar-left {
+  float: left;
+  width: 20%;
+  padding: 20px 20px 20000px;
+  margin-bottom: -20000px;
+  background: #ccc;
+}
+
+.sidebar-center {
+  float: left;
+  width: 49%;
+  padding: 20px;
+}
+
+.sidebar-right {
+  float: right;
+  width: 25%px;
+  padding: 20px;
+  background: #ccc;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+}
+
