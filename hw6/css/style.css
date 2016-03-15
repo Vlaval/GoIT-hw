@@ -1,0 +1,130 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #191919;
+}
+
+.wrapper {
+	width: 1000px;
+	height: 1310px;
+	margin: auto;
+	background: #fff;
+}
+
+.container {
+	width: 909px;
+	margin: auto;
+}
+
+/* HEADER */
+
+/* top line */
+
+.top_line {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/* Clearfix for modern browsers */
+.top_line:before,
+.top_line:after {
+   content: "";
+   display: table;
+}
+.top_line:after {
+   clear: both;
+}
+
+/* Clearfix for IE6-7 */
+.top_line {
+   zoom: 1;
+}
+
+.phone_number {
+  float: left;
+  width: 310px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: #5e696d;
+}
+
+.phone_number img {
+  position: relative;
+  top: 4px;
+}
+
+.authorization_form {
+  float: left;
+	height: 25px;
+	width: 495px;
+/*	line-height: 25px;*/
+	padding-left: 7px;
+  margin-left: 15px;
+	border-radius: 5px;
+	background: linear-gradient(to bottom, rgba(12,50,86,1) 0%, rgba(17,65,101,1) 59%, rgba(12,50,86,1) 100%);
+  box-shadow: 3px 3px 3px 0px rgba(193,193,193,1);
+}
+
+.authorization_form img {
+	position: relative;
+	top: 5px;
+}
+
+.authorization_form input {
+	height: 16px;
+	width: 113px;
+	margin-right: 8px;
+  font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 11px;
+}
+
+#login_reg,
+#login_reg a {
+	color: #fff;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 11px;
+}
+
+#login_reg a:hover {
+  text-decoration: underline;
+}
+
+#forgot_pass a {
+	color: #bfbfbf;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+  margin-left: 15px;
+}
+
+#forgot_pass a:hover {
+  text-decoration: none;
+}
+
+/* navi */
+
+.navi {
+  position: relative;
+  top: 3px;
+  float: right;
+  width: 75px;
+  height: 20px;
+  border: 1px solid #c1c8cb;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 0px rgba(193,193,193,1);
+}
+
+.navi a {
+  margin-left: 6px;
+}
+
+/* banner */
+
+.main_banner img {
+  margin-top: 5px;
+}
