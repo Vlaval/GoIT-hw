@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+#<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -9,7 +9,7 @@
 	<div class="wrapper">
 		<div class="container">
 			<header>
-				<div class ="top_line">
+				<div class ="top_line clearfix">
           <div class="phone_number">
             <img src="img/phone.png" alt="">
             (044)123-45-67
@@ -34,26 +34,262 @@
 						</form>
 					</div>
 					
-					<div class="navi">
-            <a href="#">
-					    <img src="img/home.png" alt="">
-					  </a>
-					  <a href="#">
-					    <img src="img/site_map.png" alt="">
-					  </a>
-					  <a href="#">
-					    <img src="img/letter.png" alt="">
-					  </a>
-					</div>
+
+          <ul class="navi clearfix">
+            <li class="navi__item">
+              <a href="" class="navi__link navi__link1"></a>
+            </li>
+            <li class="navi__item">
+              <a href="" class="navi__link navi__link2"></a>
+            </li>
+            <li class="navi__item">
+              <a href="" class="navi__link navi__link3"></a>
+            </li>
+          </ul>
 				</div>
 				
         <!-- header main picture -->
 				
-				<div class="main_banner">
-				  <img src="img/header.png" alt="">
-				</div>
+        <div class="main_banner">
+          <img src="img/header.png" alt="">
+          <div class="main_banner__text">				    
+          <a href="#">
+            <span id="company_name">zazor</span>.com.ua
+            <span id="red_line">drives you away</span>
+          </a>
+          </div>
+        </div>
 			</header>
-		</div>
-	</div>
+			<nav>
+			  <div class="navbar">
+			    <ul class="navbar_menu clearfix">
+			      <li class="navbar_menu__item">
+			        <a href="#" class="navbar_menu__link">О КОМПАНИИ</a>
+			      </li>
+			      <li class="navbar_menu__item">
+			        <a href="#" class="navbar_menu__link">ОПЛАТА</a>
+			      </li>
+			      <li class="navbar_menu__item">
+			        <a href="#" class="navbar_menu__link">ДОСТАВКА</a>
+			      </li>
+			      <li class="navbar_menu__item">
+			        <a href="#" class="navbar_menu__link">СТАТЬИ</a>
+			      </li>
+			      <li class="navbar_menu__item">
+			        <a href="#" class="navbar_menu__link">ДОСТАВКА</a>
+			      </li>
+			    </ul>
+				  <div class="quant_price">
+				      <img src="img/basket.png">
+							товаров: <span class="blue_num">0</span>
+							&nbsp;&nbsp;
+							на сумму: &nbsp;&nbsp;&nbsp;<span class="blue_num">0,00 грн.</span>
+				  </div>
+			  </div>
+			</nav>
+
+			<div class="container clearfix">
+<!--    		LEFT SIDEBAR         -->
+     		<aside class="sidebar">
+     			<div class="sidebar__header">
+     				КАТАЛОГ ПРОДУКЦИИ:
+     			</div>
+     			<div class="sidebar__content">
+     				<div class="goods_type">
+     					ШИНЫ
+     				</div>
+     				<ul class="goods_list">
+     					<li><a href="#" class="goods_name">Наименование 1</a></li>
+     					<li><a href="#" class="goods_name">Наименование 2</a></li>
+     					<li><a href="#" class="goods_name">Наименование 3</a></li>
+     					<li><a href="#" class="goods_name">Наименование 4</a></li>
+     				</ul>
+     				
+     				<div class="goods_type">
+     					ДИСКИ
+     				</div>
+     				<ul class="goods_list">
+     					<li><a href="#" class="goods_name">Наименование 1</a></li>
+     					<li><a href="#" class="goods_name">Наименование 2</a></li>
+     					<li><a href="#" class="goods_name">Наименование 3</a></li>
+     					<li><a href="#" class="goods_name">Наименование 4</a></li>
+     				</ul>
+     				
+     				<div class="goods_type">
+     					БОЛТЫ
+     				</div>
+     				<ul class="goods_list">
+     					<li><a href="#" class="goods_name">Наименование 1</a></li>
+     					<li><a href="#" class="goods_name">Наименование 2</a></li>
+     					<li><a href="#" class="goods_name">Наименование 3</a></li>
+     					<li><a href="#" class="goods_name">Наименование 4</a></li>
+     				</ul>
+     			</div>
+     		</aside>
+     		
+<!--     		CONTENT        -->
+    		
+     		<div class="content">
+    		  <div class="content__row clearfix">
+						<div class="content__col_1">
+							<p class="product_brand product_brand--row1">Goodyear</p>
+							<p class="product_description">Ultra Grip Extreme</p>
+							<div class="product_img1">  
+							</div>
+							<p class="product_price">90.00 грн.</p>
+						</div>
+						<div class="content__col_2">
+							<p class="product_brand product_brand--row1">Nokian</p>
+							<p class="product_description">Hakkapeliitta R</p>
+							<div class="product_img2">  
+							</div>
+							<p class="product_price">115.00 грн.</p>
+						</div>
+						<div class="content__col_3">
+							<p class="product_brand product_brand--row1">Hankook</p>
+							<p class="product_description">K 708 155/65 R14</p>
+							<div class="product_img3">  
+							</div>
+							<p class="product_price">393.00 грн.</p>
+						</div>
+					</div>
+    		
+    			<div class="content__row clearfix">
+						<div class="content__col_1">
+							<p class="product_brand product_brand--row2">Goodyear</p>
+							<p class="product_description">Ultra Grip Extreme</p>
+							<div class="product_img1">  
+							</div>
+							<p class="product_price">90.00 грн.</p>
+						</div>
+						<div class="content__col_2">
+							<p class="product_brand product_brand--row2">Nokian</p>
+							<p class="product_description">Hakkapeliitta R</p>
+							<div class="product_img2">  
+							</div>
+							<p class="product_price">115.00 грн.</p>
+						</div>
+						<div class="content__col_3">
+							<p class="product_brand product_brand--row2">Hankook</p>
+							<p class="product_description">K 708 155/65 R14</p>
+							<div class="product_img3">  
+							</div>
+							<p class="product_price">393.00 грн.</p>
+						</div>
+					</div>
+    		
+    			<div class="content__row clearfix">
+						<div class="content__col_1">
+							<p class="product_brand product_brand--row3">Goodyear</p>
+							<p class="product_description">Ultra Grip Extreme</p>
+							<div class="product_img1">  
+							</div>
+							<p class="product_price">90.00 грн.</p>
+						</div>
+						<div class="content__col_2">
+							<p class="product_brand product_brand--row3">Nokian</p>
+							<p class="product_description">Hakkapeliitta R</p>
+							<div class="product_img2">  
+							</div>
+							<p class="product_price">115.00 грн.</p>
+						</div>
+						<div class="content__col_3">
+							<p class="product_brand product_brand--row3">Hankook</p>
+							<p class="product_description">K 708 155/65 R14</p>
+							<div class="product_img3">  
+							</div>
+							<p class="product_price">393.00 грн.</p>
+						</div>
+					</div>
+     		</div>
+     		
+<!--     		RIGHT SIDEBAR        -->
+     		
+     		<aside class="sidebar">
+     			<div class="sidebar__header">
+     				БРЕНДЫ:
+     			</div>
+     			<div class="sidebar__content sidebar__content--right">
+     				<div class="goods_type">
+     					ШИНЫ
+     				</div>
+     				<input type="checkbox" id="cb1" class="checkbox" name="brand" value="brand_1">
+     				<label for="cb1" class="checkbox_value">Бренд 1</label>
+     				<br>
+     				<input type="checkbox" id="cb2" class="checkbox" name="brand" value="brand_2">
+     				<label for="cb2" class="checkbox_value">Бренд 2</label>
+  					<br>
+     				<input type="checkbox" id="cb3" class="checkbox" name="brand" value="brand_3">
+     				<label for="cb3" class="checkbox_value">Бренд 3</label>
+     				
+     				<div class="goods_type">
+     					ДИСКИ
+     				</div>
+     				<input type="checkbox" id="cb4" class="checkbox" name="brand" value="brand_1">
+     				<label for="cb4" class="checkbox_value">Бренд 1</label>
+     				<br>
+     				<input type="checkbox" id="cb5" class="checkbox" name="brand" value="brand_2">
+     				<label for="cb5" class="checkbox_value">Бренд 2</label>
+  					<br>
+     				<input type="checkbox" id="cb6" class="checkbox" name="brand" value="brand_3">
+     				<label for="cb6" class="checkbox_value">Бренд 3</label>
+     				<br>
+     				<button>ВЫБРАТЬ</button>
+     			</div>
+     		</aside>
+     	</div>
+     	
+     	<div class="brand_logo">
+     		<ul class="brand_logo__list">
+     			<li class="brand_logo__item">
+     				<a href="#" class="brand_logo__link brand_logo__link--1"></a>
+     			</li>
+     			<li class="brand_logo__item">
+     				<a href="#" class="brand_logo__link brand_logo__link--2"></a>
+     			</li>
+     			<li class="brand_logo__item">
+     				<a href="#" class="brand_logo__link brand_logo__link--3"></a>
+     			</li>
+     			<li class="brand_logo__item">
+     				<a href="#" class="brand_logo__link brand_logo__link--4"></a>
+     			</li>
+     			<li class="brand_logo__item">
+     				<a href="#" class="brand_logo__link brand_logo__link--5"></a>
+     			</li>
+     			<li class="brand_logo__item">
+     				<a href="#" class="brand_logo__link brand_logo__link--6"></a>
+     			</li>
+     			<li class="brand_logo__item">
+     				<a href="#" class="brand_logo__link brand_logo__link--7"></a>
+     			</li>
+     			<li class="brand_logo__item">
+     				<a href="#" class="brand_logo__link brand_logo__link--8"></a>
+     			</li>
+     		</ul>
+     	</div>	
+     	
+<!--     	FOOTER     -->
+     	
+     	<footer>
+     		<nav class="clearfix">
+     			<ul class="nav_footer">
+     				<li class="nav_footer__item">
+     				  <a href="#"  class="nav_footer__link">О КОМПАНИИ</a>
+     			  </li>
+     				<li class="nav_footer__item">
+     				  <a href="#"  class="nav_footer__link">ДОСТАВКА</a>
+     			  </li>
+     				<li class="nav_footer__item">
+     				  <a href="#"  class="nav_footer__link">СТАТЬИ</a>
+     			  </li>
+     				<li class="nav_footer__item">
+     				  <a href="#"  class="nav_footer__link">КОНТАКТЫ</a>
+     			  </li>
+     			</ul>
+     		</nav>
+     		<p class="copyright">Создание сайта &#169; Global Vision</p>
+     	</footer>			 										
+    </div>	
+  </div>
 </body>
 </html>
