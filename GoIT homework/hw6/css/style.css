@@ -1,0 +1,516 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+ 	box-sizing: border-box;
+	list-style-type: none;
+}
+
+body {
+	background-color: #191919;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: auto;
+	background: #fff;
+}
+
+.container {
+	width: 909px;
+	margin: auto;
+}
+
+/* HEADER */
+
+.top_line {
+  padding-top: 20px;
+}
+
+/* Clearfix for modern browsers */
+.clearfix:before,
+.clearfix:after {
+   content: "";
+   display: table;
+}
+.clearfix:after {
+   clear: both;
+}
+
+/* Clearfix for IE6-7 */
+.clearfix {
+   zoom: 1;
+}
+
+.phone_number {
+  float: left;
+  width: 310px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: #5e696d;
+}
+
+.phone_number img {
+  position: relative;
+  top: 4px;
+}
+
+.authorization_form {
+  float: left;
+	height: 25px;
+	width: 495px;
+	padding-left: 7px;
+  margin-left: 15px;
+	border-radius: 5px;
+	background: linear-gradient(to bottom, rgba(12,50,86,1) 0%, rgba(17,65,101,1) 59%, rgba(12,50,86,1) 100%);
+  box-shadow: 3px 3px 3px 0px rgba(193,193,193,1);
+}
+
+.authorization_form img {
+	position: relative;
+	top: 5px;
+}
+
+.authorization_form input {
+	height: 16px;
+	width: 113px;
+	margin-right: 8px;
+  font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 11px;
+}
+
+#login_reg,
+#login_reg a {
+	color: #fff;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 11px;
+}
+
+#login_reg a:hover {
+  text-decoration: underline;
+}
+
+#forgot_pass a {
+	color: #bfbfbf;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+  margin-left: 15px;
+}
+
+#forgot_pass a:hover {
+  text-decoration: none;
+}
+
+/* NAVI */
+
+.navi {
+  position: relative;
+  top: 3px;
+  float: right;
+  width: 75px;
+  height: 20px;
+  border: 1px solid #c1c8cb;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 0px rgba(193,193,193,1);
+}
+
+.navi__item {
+  float: left;  
+}
+
+.navi__link {
+  display: block;
+  width: 14px;
+  height: 11px;
+  margin: 4px 5px;
+}
+
+.navi__link1 {
+  background: #fff url(../img/navi_sprite.png) 0 0 no-repeat;
+}
+
+.navi__link2 {
+  background: #fff url(../img/navi_sprite.png) -15px 0 no-repeat;
+}
+
+.navi__link3 {
+  background: #fff url(../img/navi_sprite.png) -30px 0 no-repeat;
+}
+
+.navi__link1:hover {
+  background: #fff url(../img/navi_sprite.png) 0 -13px no-repeat;
+}
+
+.navi__link2:hover {
+  background: #fff url(../img/navi_sprite.png) -15px -13px no-repeat;
+}
+
+.navi__link3:hover {
+  background: #fff url(../img/navi_sprite.png) -30px -13px no-repeat;
+}
+
+/* banner */
+
+.main_banner {
+  position: relative;
+}
+
+.main_banner img {
+  margin-top: 5px;
+}
+
+.main_banner__text {
+  position: absolute;
+  top: 100px;
+  left: 5px;
+  font-size: 30px;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  line-height: 30px;
+}
+
+.main_banner__text a {
+  color: #fff;
+  padding: 25px 0;
+}
+
+#company_name {
+  font-size: 62px;
+}
+
+#red_line {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  color: red;
+}
+
+/* NAVBAR */
+
+.navbar {
+	height: 33px;
+	border-radius: 5px;
+	margin: 5px 0;
+	background: linear-gradient(to top, #000000, #576068);
+	box-shadow: 3px 3px 3px 0px rgba(193,193,193,1);
+}
+
+.navbar_menu {
+  float: left;
+	margin: 3px 0 0 126px;
+}
+
+.navbar_menu__item {
+  float: left;
+}
+
+.navbar_menu__link {
+	height: 26px;
+	line-height: 26px;
+	padding: 0 18px;
+	border-radius: 13px;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 14px;
+	color: #fff;
+}
+
+.navbar_menu__link:hover {
+	background: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+}
+
+.quant_price {
+	float: right;
+	font: 12px/33px Arial, sans-serif;
+	margin-right: 13px;
+	color: #fff;
+}
+
+.quant_price .blue_num {
+	color: #0d5a8f;
+}
+
+.quant_price img {
+  position: relative;
+  top: 3px;
+  right: 3px;
+}
+
+/* LEFT SIDEBAR */
+
+.sidebar {
+	float: left;
+}
+
+.sidebar__header {
+	width: 181px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 25px;
+	border: 1px solid #8b979c;
+	border-radius: 12px;
+	font: 12px/25px "Lucida Sans Unicode", sans-serif;
+	color: #114165;
+	background: #fff url(../img/doc_icon.png) 2px 1px no-repeat;
+	box-shadow: 3px 3px 3px 0px rgba(193,193,193,1);
+}
+
+.sidebar__content {
+	margin-top: 10px;
+}
+
+.goods_type {
+	width: 148px;
+	height: 26px;
+	padding-left: 28px;
+	border: 1px solid #8b979c;
+	border-radius: 13px;
+	font: 12px/27px "Lucida Sans Unicode", sans-serif;
+	color: #114165;
+	background: #fff url(../img/circle-icon2.png) 4px 1px no-repeat;
+}
+
+.goods_list {
+	margin: 5px 0;
+}
+
+.goods_name {
+	font: 13px/13px "Lucida Sans Unicode", sans-serif;
+	padding-left: 45px;
+	color: #114165;
+	background: #fff url(../img/not_active_circle.png) 35px center no-repeat;
+}
+
+.goods_name:hover {
+	font-size: 14px;
+	text-decoration: underline;
+	color: #0c3256;
+	background: #fff url(../img/active_circle.png) 35px center no-repeat;
+}
+
+/* RIGHT SIDEBAR */
+
+.sidebar__content--right {
+	margin-left: 15px;	
+}
+
+input[type="checkbox"] {
+	width: 10px;
+	height: 10px;
+	margin: 8px 15px;
+  box-shadow: inset 1px 1px 3px 0px rgba(17,65,101,1);
+}
+
+input[type="checkbox"] + label {
+	margin:5px;
+}
+
+button {
+	width: 80px;
+	height: 26px;
+	border-radius: 13px;
+	font: 11px "Arial", sans-serif;
+	margin: 15px;
+	color: #fff;
+	background: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+	box-shadow: 3px 3px 3px 0px rgba(193,193,193,1);
+}
+
+/* CONTENT */
+
+.content {
+	float: left;
+  width: 527px;
+  height: 628px;
+  border-radius: 3px;
+  padding: 15px 30px 0 23px;
+	margin: 0 10px;
+  background: linear-gradient(to top, #93a7b0, #e5e7e8);
+}
+
+.content__row {
+margin-bottom: 20px;
+}
+
+.content__col_1,
+.content__col_2,
+.content__col_3 {
+  float: left;
+  width: 138px;
+  text-align: center;
+}
+
+.content__col_1,
+.content__col_2 {
+  margin-right: 30px;
+}
+
+.product_img1,
+.product_img2,
+.product_img3 {
+  width: 138px;
+  height: 127px;
+  border: 1px solid #c1c8cb;
+  border-radius: 5px;
+}
+
+.product_img1 {
+	background: #fff url(../img/tire1.jpg) center center no-repeat;
+}
+
+.product_img2 {
+	background: #fff url(../img/tire2.jpg) center center no-repeat;
+}
+
+.product_img3 {
+	background: #fff url(../img/tire3.jpg) center center no-repeat;
+}
+
+.product_brand {
+	font: 14px "Lucida Sans Unicode", sans-serif;
+	color: #206988;
+	margin-bottom: -7px;;
+}
+
+.product_description {
+	font: 12px "Lucida Sans Unicode", sans-serif;
+}
+
+.product_price {
+	font: 14px "Arial", sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #114165;
+	margin-top: 2px;
+}
+
+/* BRAND LOGO LINE */
+
+.brand_logo {
+	overflow: hidden;
+	margin: 40px auto;
+}
+
+.brand_logo__list {
+	position: relative;
+	left: 50%;
+	float: left;
+}
+
+.brand_logo__item {
+	position: relative;
+	right: 50%;
+	float: left;
+}
+
+.brand_logo__link {
+	display: block;
+	width: 90px;
+	height: 27px;
+}
+
+.brand_logo__link--1 {
+  background: #fff url(../img/logo_sprite_1.png) 0 0 no-repeat;
+}
+
+.brand_logo__link--2 {
+  width: 100px;
+  background: #fff url(../img/logo_sprite_1.png) -92px 0 no-repeat;
+}
+
+.brand_logo__link--3 {
+  background: #fff url(../img/logo_sprite_1.png) -197px 0 no-repeat;
+}
+
+.brand_logo__link--4 {
+  background: #fff url(../img/logo_sprite_1.png) -297px 0 no-repeat;
+}
+
+.brand_logo__link--5 {
+  background: #fff url(../img/logo_sprite_1.png) -397px 0 no-repeat;
+}
+
+.brand_logo__link--6 {
+  background: #fff url(../img/logo_sprite_1.png) -497px 0 no-repeat;
+}
+
+.brand_logo__link--7 {
+  background: #fff url(../img/logo_sprite_1.png) -597px 0 no-repeat;
+}
+
+.brand_logo__link--8 {
+  background: #fff url(../img/logo_sprite_1.png) -697px 0 no-repeat;
+}
+
+.brand_logo__link--1:hover {
+  background: #fff url(../img/logo_sprite_1.png) 0 -27px no-repeat;
+}
+
+.brand_logo__link--2:hover {
+  background: #fff url(../img/logo_sprite_1.png) -92px -27px no-repeat;
+}
+
+.brand_logo__link--3:hover {
+  background: #fff url(../img/logo_sprite_1.png) -197px -27px no-repeat;
+}
+
+.brand_logo__link--4:hover {
+  background: #fff url(../img/logo_sprite_1.png) -297px -27px no-repeat;
+}
+
+.brand_logo__link--5:hover {
+  background: #fff url(../img/logo_sprite_1.png) -397px -27px no-repeat;
+}
+
+.brand_logo__link--6:hover {
+  background: #fff url(../img/logo_sprite_1.png) -497px -27px no-repeat;
+}
+
+.brand_logo__link--7:hover {
+  background: #fff url(../img/logo_sprite_1.png) -597px -27px no-repeat;
+}
+
+.brand_logo__link--8:hover {
+  background: #fff url(../img/logo_sprite_1.png) -697px -27px no-repeat;
+}
+
+/* FOOTER */
+
+footer {
+	height: 100px;
+  padding-top: 12px;
+	background: #213a4d;
+}
+
+.nav_footer {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+.nav_footer__item {
+  float: left;
+  position: relative;
+  right: 50%;
+  padding: 0 5px;
+  border-right: 1px solid #fff;
+}
+
+.nav_footer__item:last-child {
+  border: none;
+} 
+
+.nav_footer__link {
+  font: 12px "Arial", sans-serif;
+  color: #fff;
+}
+
+.nav_footer__link:hover {
+  color: #52abcb;
+}
+
+.copyright {
+  font: 10px "Arial", sans-serif;
+  text-align: center;
+  padding-top: 15px;
+  color: #7f4740;
+}
