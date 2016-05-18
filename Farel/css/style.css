@@ -1,0 +1,401 @@
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    font-family: "MyriadProRegular", "Arial", sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    height: 60px;
+}
+
+.navbar-brand {
+    position: relative;
+    top: 5px;
+    padding: 0;
+}
+
+.navbar-inverse {
+    background: #3f3f3f;
+}
+
+.navbar-container {
+	padding-left: 6%;
+    height: 100%;
+}
+
+#navbar a{
+    color: #fff;
+    font-size: 1.08em;
+    font-family: "MyriadProRegular", "Arial", sans-serif;
+}
+
+#navbar .menu-nav {
+    padding-left: 15%;
+	margin: -2px -15px 0;
+	background: #3f3f3f;
+}
+
+#navbar .menu-nav li {
+	margin: 0;
+}
+
+#navbar .menu-nav li a{
+    padding: 20px 0 5px;
+    margin: 0 30px 15px 0;
+	border-bottom: 1px solid #3f3f3f;
+}
+
+#navbar .menu-nav li a:hover {
+    border-bottom: 1px solid #00afce;
+}
+
+#navbar .lang-nav {
+    margin-right: 2%;
+}
+
+#navbar .lang-nav li a{
+    padding: 3px;
+    margin-top: 16px;
+    margin-right: 13px;
+}
+
+#navbar .lang-nav li a:hover {
+    background: #00afce;
+}
+
+.navbar-top button {
+    margin-top: 12px;
+}
+
+@media all and (max-width: 767px) {
+    #navbar {
+        float: right;
+        margin-top: 0px;
+		margin-right: 15px;
+        width: 200px;
+        padding-left: 2%;
+		border: 1px solid #000;
+    }   
+}
+
+@media all and (min-width: 768px) and (max-width: 1020px) {
+    .navbar-container #navbar .menu-nav {
+    padding-left: 5%;
+    } 
+}
+
+/* HEADER */
+
+.jumbotron {
+    padding-top: 85px;
+    margin-bottom: 0px;
+    background: #fff;
+}
+
+.jumbotron h1 {
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 2.3em;
+    font-family: "MyriadProRegular", "Arial", sans-serif;
+}
+
+.jumbotron p {
+    text-align: center;
+    font-size: 1.43em;
+    font-family: "MyriadProRegular", "Arial", sans-serif;
+    color: #6c6c6c;
+}
+
+.jumbotron .img-centered {
+    margin: auto;
+}
+
+.jumbotron .eye_img {
+    margin-top: 47px;
+}
+
+.jumbotron .scroll_img {
+    margin-top: 53px;
+}
+
+.jumbotron .logo2_img {
+    margin-top: 79px;
+}
+
+/* header list */
+
+.list-row {
+    margin-top: 41px;
+}
+
+.header_list {
+    margin-left: 5%;
+    font-size: 1.22em;
+}
+
+.header_list__item1 {
+    padding: 5px 0;
+    background: #fff url(../img/icons.png) 97% 10px no-repeat;
+}
+
+.header_list__item1 a {
+    color: #00afce;
+}
+
+.header_list__item1 a {
+    text-decoration: none;
+}
+
+.colon {
+    padding: 11px 17px 9px;
+}
+
+.header_list__item2 {
+    padding: 5px 0;
+    background: #fff url(../img/icons.png) 97% -91px no-repeat;
+}
+
+.header_list__item3 {
+    padding: 5px 0;
+    background: #fff url(../img/icons.png) 97% -190px no-repeat;
+}
+
+.app_google-row {
+    padding-bottom: 9px;
+} 
+
+.app_store_link {
+    display: inline-block;
+    margin-top: 19%;
+    margin-left: 21%;
+}
+
+.google_play_link {
+    display: inline-block;
+    margin-top: 19%;
+    margin-left: 13%;
+}
+
+/* about tekrum row */
+
+.about-row {
+    padding: 32px 0 30px;
+}
+
+.grey-row {
+    text-align: center;
+    color: #fff;
+    background: #3f3f3f;
+}
+
+.grey-row .tekrum {
+    font-size: 1.39em;
+    line-height: 1.13em;
+}
+
+/* logoes row 1 */
+
+.companies-row {
+    padding: 15px 0 13px;
+}
+
+.white-row {
+    text-align: center;
+    color: #000;
+}
+
+.white-row h1 {
+    font-size: 2.1em;
+    line-height: 1.16em; 
+}
+
+.comp_logos-row1 {
+    margin-top: 69px;
+}
+
+.nat_geo_logo {
+    padding: 0% 4%;
+}
+
+.loreal_logo {
+    padding: 0 0.5%;
+}
+
+/* logoes row 2 */
+
+.comp_logos-row2 {
+    margin-top: 95px;
+    margin-bottom: 29px;
+}
+
+.VW_logo {
+    padding: 0 5%;
+}
+
+.esquire_logo {
+    padding: 0 4%;
+}
+
+.invercasa_logo {
+    padding: 0 2% 0 4%;
+}
+
+/* mobile usage row */
+
+.mobile_usage-row {
+    padding-top: 30px;
+    padding-bottom: 42px;
+}
+
+.mobile_usage-row h1{
+    margin-top: 9px;
+    font-size: 2.1em;
+    color: #fff;
+}
+
+.mobile_usage-row a {
+    display: inline-block;
+    position: relative;
+    right: 37%;
+}
+
+.infographics_mob {
+    margin-top: 5px;
+    padding-left: 7%;
+    padding-right: 3%;
+}
+
+/* contactless screen usage */
+
+.contactless_scr_usage-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contactless_scr_usage-row h1{
+    margin-top: 9px;
+    font-size: 2.1em;
+    color: #000;
+}
+
+.contactless_scr_usage-row a {
+    display: inline-block;
+    position: relative;
+    right: 37%;
+}
+
+.infographics_scr {
+    margin-top: 10px;
+    padding-left: 2%;
+}
+
+/* footer */
+
+footer{
+    font-size: 1.15em;
+}
+
+footer li {
+    line-height: 45px;
+    text-align: left;
+}
+
+.footer-row {
+    padding-top: 3px;
+    padding-bottom: 23px;
+}
+
+.footer-row h1{
+    font-size: 1.9em;
+    margin-bottom: 20px;
+}
+
+.img-center {
+    margin:0 auto;
+}
+
+footer .sea_breeze {
+    color: #00afce;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #a1e2ee;
+    text-decoration: none;
+}
+
+/* address */
+
+footer .address {
+    padding: 0 0 0 5%;
+}
+
+footer .address .addr_header {
+    margin-right: 31%;
+}
+
+footer .address  img {
+    margin-right: 5%;
+}
+
+/* social networks */
+
+footer .soc_network {
+    padding-left: 5.5%;
+}
+
+footer .soc_network .soc_network_header {
+    margin-right: 15%;
+}
+
+footer .soc_network img {
+    margin-right: 12%;
+}
+
+/* required form */
+
+.rf {
+    margin-top: 10px;
+    padding-right: 2%;
+}
+
+.rf .form_header {
+    margin-right: 55%;
+}
+
+input[type=text] {
+    width: 80%;
+    color: #000;
+}
+
+input[type=submit] {
+    font-size: 1.1em;
+    width: 53%;
+    background-color: #00afce;
+}
+
+form .empty_field_text_1,
+form .empty_field_text_2,
+form .empty_field_text_3 {
+    font-size: 0.9em;
+}
+
+/* map */
+
+footer .map-container {
+    padding: 0;
+}
