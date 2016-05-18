@@ -1,1 +1,1 @@
-# GoIT-hw
+# My portfolio
